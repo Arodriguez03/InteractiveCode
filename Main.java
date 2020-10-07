@@ -11,12 +11,14 @@ class Main {
       
       System.out.println(" How old are you " + name + "?");
       int age = scan.nextInt();
-      if (age <= 15){
+      if (age < 15 && age != 0 ){
         
         System.out.println("Wow, you are young!");
       
-          }else if (age >= 15){
-            System.out.println("You are getting old!");
+          }else if (age >= 15 || age != 0){
+            System.out.println("Your young days are not over yet!");
+      }else if (age == 0){
+        System.out.println("How are you talking to me?!");
       }
 
      

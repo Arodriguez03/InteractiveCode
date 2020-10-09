@@ -19,6 +19,7 @@ class Main {
             System.out.println("Your young days are not over yet!");
           }else if (age == 0){
         System.out.println("How are you talking to me?!");
-     } 
+          } String mane = scan.nextLine();
+          System.out.println("Now I am going to ask some questions. " + "What is your favorite food?"); 
   }
 }
